@@ -12,4 +12,5 @@
 
     - name: output commands
       debug:
-        var: output.stdout_lines%
+        var: output.stdout_lines
+        
