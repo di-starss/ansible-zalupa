@@ -1,0 +1,16 @@
+---
+- hosts: all
+
+  tasks:
+    - debug: var=dc
+    - debug: var=cluster
+
+    - name: commands
+      shell: |
+        hostname && whoami
+      register: output
+
+
+    - name: output commands
+      debug:
+        var: output.stdout_lines%
