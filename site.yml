@@ -4,6 +4,7 @@
   
   tasks:
     - debug: var=secret
+    - debug: var=secret.ZALUPA
 
     - name: commands
       shell: |
