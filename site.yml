@@ -5,4 +5,3 @@
     - name: commands
       shell: |
         hostname && whoami
-        
