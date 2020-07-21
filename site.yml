@@ -1,13 +1,8 @@
 ---
 - hosts: 127.0.0.1
-  connection: local
-  
-  tasks:
-    - debug: var=secret
-    - debug: var=secret.ZALUPA
-    - debug: var=secret.ZOPA
 
+  tasks:
     - name: commands
       shell: |
         hostname && whoami
-      register: output
+        
