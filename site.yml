@@ -5,6 +5,7 @@
     - debug: var=secret
     - debug: var=project
     - debug: var=vm
+    - debug: var=tmp
     
     - name: commands
       shell: |
