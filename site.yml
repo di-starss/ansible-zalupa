@@ -11,3 +11,9 @@
     - name: commands
       shell: |
         hostname && whoami
+
+    - name: write tmp/zalupa
+      tmp:
+        write:
+          key: "key"
+          value: "value"
