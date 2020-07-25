@@ -6,6 +6,7 @@
     - debug: var=project
     - debug: var=vm
     - debug: var=vms
+    - debug: var=net
     - debug: var=tmp
     - debug: var=cluster_meta
     
