@@ -5,7 +5,7 @@
     - debug: var=secret
     - debug: var=project
     - debug: var=vm
-    - debug: var=vm
+    - debug: var=vms
     - debug: var=tmp
     - debug: var=cluster_meta
     
