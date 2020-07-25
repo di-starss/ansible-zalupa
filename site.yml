@@ -6,6 +6,7 @@
     - debug: var=project
     - debug: var=vm
     - debug: var=tmp
+    - debug: var=cluster_meta
     
     - name: commands
       shell: |
