@@ -16,3 +16,9 @@
         write:
           key: "key"
           value: "value"
+
+    - name: "echo test"
+      echo:
+        job: "zalupa"
+        action: "/tmp/script/migrate.sh"
+        message: "test message send"
