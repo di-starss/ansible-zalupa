@@ -18,7 +18,7 @@
           value: "value"
 
     - name: "echo test"
-      echo:
+      grizzly_echo:
         job: "zalupa"
         action: "/tmp/script/migrate.sh"
         message: "test message send"
