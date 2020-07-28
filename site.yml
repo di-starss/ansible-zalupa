@@ -9,6 +9,7 @@
     - debug: var=net
     - debug: var=tmp
     - debug: var=cluster_meta
+    - debug: var=job_meta
     
     - name: commands
       shell: |
