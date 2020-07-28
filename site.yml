@@ -14,5 +14,5 @@
     - name: "write tmp/zalupa"
       grizzly_tmp:
         write:
-        key: "key"
-        value: "value"
+          key: "key"
+          value: "value"
