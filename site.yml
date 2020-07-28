@@ -16,7 +16,7 @@
         hostname && whoami
 
     - name: write tmp/zalupa
-      tmp:
+      grizzly_tmp:
         write:
           key: "key"
           value: "value"
