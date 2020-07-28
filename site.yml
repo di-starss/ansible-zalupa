@@ -12,7 +12,7 @@
     - debug: var=job_meta
     
     - name: "write tmp/zalupa"
-      tmp:
+      grizzly_tmp:
         write:
-          key: "key"
-          value: "value"
+        key: "key"
+        value: "value"
