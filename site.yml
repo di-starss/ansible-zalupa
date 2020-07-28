@@ -15,7 +15,7 @@
       shell: |
         hostname && whoami
 
-    - name: write tmp/zalupa
+    - name: "write tmp/zalupa"
       grizzly_tmp:
         write:
           key: "key"
