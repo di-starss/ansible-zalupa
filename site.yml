@@ -11,10 +11,6 @@
     - debug: var=cluster_meta
     - debug: var=job_meta
     
-    - name: commands
-      shell: |
-        hostname && whoami
-
     - name: "write tmp/zalupa"
       grizzly_tmp:
         write:
